@@ -55,6 +55,8 @@ $ ./secretsantamailer.py --official
 
 This will dispatch the emails and record what emails it sent to the file specified by the secret_santa_record_file setting in config.py.
 
+_Do not look at the contents of this file, unless you want to know who everyone's Secret Santa is._
+
 It will sequentially send emails to everyone.
 
 ### Wish List
