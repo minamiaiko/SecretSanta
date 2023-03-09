@@ -10,7 +10,7 @@ This python-based script will automatically assign a recipient for every Secret 
 
 ### 1. Get The Script
 
-git clone https:github.com/minamiaiko/secretsanta.git
+git clone https://github.com/minamiaiko/secretsanta.git
 
 ### 2. Modify the Configuration File
 
