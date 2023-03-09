@@ -14,7 +14,7 @@ This python-based script will automatically assign a recipient for every Secret 
 > 
 > ### 2. Modify the Configuration File
 > 
-> Make your desired modifications to the config.py configuration file.
+> Make your desired modifications to the 'config.py' configuration file.
 > 
 > In it, you must specify:
 > 
@@ -27,13 +27,13 @@ This python-based script will automatically assign a recipient for every Secret 
 > 
 > $ ./secretsantamailer.py
 > 
-> This will read the configuration file and perform a "dry run" of the various pairings between Secret Santas and recipients. It will generate an output file as specified by the secret_santa_record_file setting in config.py.
+> This will read the configuration file and perform a "dry run" of the various pairings between Secret Santas and recipients. It will generate an output file as specified by the 'secret_santa_record_file' setting in 'config.py'.
 > 
-> This record file is saved as secret-santa-record-file.txt by default.
+> This record file is saved as 'secret-santa-record-file.txt' by default.
 > 
 > ### 4. Configure the SMTP Settings
 > 
-> This script relies on a simple SMTP method of sending emails, and the SMTP setting in config.py will depend on your preffered service to use.
+> This script relies on a simple SMTP method of sending emails, and the SMTP setting in 'config.py' will depend on your preffered service to use.
 > 
 > Various SMTP  server options are available. A few popular options include:
 > * Sendinblue - Free 300 emails/day
@@ -53,7 +53,7 @@ This python-based script will automatically assign a recipient for every Secret 
 > 
 > $ ./secretsantamailer.py --official
 > 
-> This will dispatch the emails and record what emails it sent to the file specified by the secret_santa_record_file setting in config.py.
+> This will dispatch the emails and record what emails it sent to the file specified by the 'secret_santa_record_file' setting in 'config.py'.
 > 
 > _Do not look at the contents of this file, unless you want to know who everyone's Secret Santa is._
 > 
@@ -64,4 +64,3 @@ This python-based script will automatically assign a recipient for every Secret 
 > * Add support for allowing a recipient to have a gift "wish list" that may be added in an email.
 
 [Go To TOP](#section_name)
-Secret Santa<a name="section_name"></a>
