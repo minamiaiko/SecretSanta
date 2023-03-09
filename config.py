@@ -15,14 +15,14 @@ smtp = {
 # Santa's name, and his/her recipient of their gift.
 ###############################################################################
 email_template = {
-    'James': 'james@examplecompany.gov',
-    'Mary': 'mary@examplecompany.gov',
-    'Nancy': 'nancy@examplecompany.gov',
-    'John': 'john@examplecompany.gov',
-    'Michael': 'michael@examplecompany.gov',
-    'Lisa': 'lisa@examplecompany.gov',
-    'David': 'david@examplecompany.gov',
-    'Linda': 'linda@examplecompany.gov',
+    'Bailey': 'bailey@examplecompany.gov',
+    'Nelson': 'nelson@examplecompany.gov',
+    'Minami': 'minami@examplecompany.gov',
+    'Jennifer': 'jennifer@examplecompany.gov',
+    'Lopez': 'lopez@examplecompany.gov',
+    'Will': 'will@examplecompany.gov',
+    'Smith': 'smith@examplecompany.gov',
+    'Kobe': 'kobe@examplecompany.gov',
 }
 
 ###############################################################################
@@ -32,17 +32,17 @@ email_template = {
 # If there are no incompatibles, leave this dictionary empty.
 ###############################################################################
 incompatibles = {
-    # Do not allow James to be a santa for Mary
-    'James': ('Mary',),
+    # Do not allow Bailey to be a santa for Nelson
+    'Bailey': ('Nelson',),
 
-    # Do not allow Mary to be a santa for James
-    'Mary': ('James',),
+    # Do not allow Nelson to be a santa for Bailey
+    'Nelson': ('Bailey',),
 
-    # Do not allow Nancy to be a santa for John or Mary
-    'Nancy': ('John', 'Mary',),
+    # Do not allow Kobe to be a santa for Bailey or Nelson
+    'Kobe': ('Bailey', 'Nelson',),
 
-    # Something like below is bad, Linda can't be a secret santa for anyone!
-#   'Linda': ('James', 'Mary', 'Nancy', 'John', 'Michael', 'Lisa', 'David'),
+    # Something like below is bad, Bailey can't be a secret santa for anyone!
+#   'Bailey': ('Nelson', 'Minami', 'Jennifer', 'Lopez', 'Will', 'Smith', 'Kobe'),
 }
 
 ###############################################################################
