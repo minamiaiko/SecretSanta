@@ -182,7 +182,7 @@ def read_config(file_path):
 
     try:
         with open(file_path, mode='rb')as f:
-            exec(comple(f.read(), file_path, 'exex'), config)
+            exec(compile(f.read(), file_path, 'exex'), config)
     except FileNotFoundError as e:
         raise ConfigError(
                 f'The configuration file "{file_path}" was not found.')
