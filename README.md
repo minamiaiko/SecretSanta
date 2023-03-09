@@ -62,5 +62,3 @@ This python-based script will automatically assign a recipient for every Secret 
 ### Wish List
 > 
 > * Add support for allowing a recipient to have a gift "wish list" that may be added in an email.
-
-[Go To TOP](#section_name)<Secret Santa="section_name"></a>
