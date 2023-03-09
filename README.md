@@ -8,11 +8,11 @@ This python-based script will automatically assign a recipient for every Secret 
 
 ## Instructions
 
-> ### 1. Get The Script
+### 1. Get The Script
 > 
 > [git clone](https://github.com/minamiaiko/secretsanta.git)
 > 
-> ### 2. Modify the Configuration File
+### 2. Modify the Configuration File
 > 
 > Make your desired modifications to the `config.py` configuration file.
 > 
@@ -23,7 +23,7 @@ This python-based script will automatically assign a recipient for every Secret 
 > - [ ] The list of Secret Santas
 > - [ ] Optionally a lookup of anyone who should not be someone else's Secret Santa
 > 
-> ### 3. Perform a Dry Run
+### 3. Perform a Dry Run
 > 
 > $ ./secretsantamailer.py
 > 
@@ -31,7 +31,7 @@ This python-based script will automatically assign a recipient for every Secret 
 > 
 > This record file is saved as `secret-santa-record-file.txt` by default.
 > 
-> ### 4. Configure the SMTP Settings
+### 4. Configure the SMTP Settings
 > 
 > This script relies on a simple SMTP method of sending emails, and the SMTP setting in `config.py` will depend on your preffered service to use.
 > 
@@ -49,7 +49,7 @@ This python-based script will automatically assign a recipient for every Secret 
 > 
 > If it runs without any errors, then you're ready to send the Secret Santa emails.
 > 
-> ### 5. Send the Emails
+### 5. Send the Emails
 > 
 > $ ./secretsantamailer.py --official
 > 
@@ -59,7 +59,7 @@ This python-based script will automatically assign a recipient for every Secret 
 > 
 > It will sequentially send emails to everyone.
 > 
-> ### Wish List
+### Wish List
 > 
 > * Add support for allowing a recipient to have a gift "wish list" that may be added in an email.
 
