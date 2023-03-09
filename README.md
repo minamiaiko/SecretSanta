@@ -18,10 +18,10 @@ Make your desired modifications to the config.py configuration file.
 
 In it, you must specify:
 
-* The SMTP settings as specified by your SMTP host.
-* An email template
-* The list of Secret Santas
-* Optionally a lookup of anyone who should not be someone else's Secret Santa
+- [ ] The SMTP settings as specified by your SMTP host.
+- [ ] An email template
+- [ ] The list of Secret Santas
+- [ ] Optionally a lookup of anyone who should not be someone else's Secret Santa
 
 ### 3. Perform a Dry Run
 
