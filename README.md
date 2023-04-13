@@ -36,10 +36,10 @@ This python-based script will automatically assign a recipient for every Secret 
 > This script relies on a simple SMTP method of sending emails, and the SMTP setting in `config.py` will depend on your preffered service to use.
 > 
 > Various SMTP  server options are available. A few popular options include:
-> * Sendinblue - Free 300 emails/day
-> * Mailjet - Free 200 emails/day
-> * SendGrid - Free 100 emails/day
-> * Amazon SES
+> * [Sendinblue](https://www.sendinblue.com/) - Free 300 emails/day
+> * [Mailjet](https://www.mailjet.com/) - Free 200 emails/day
+> * [SendGrid](https://sendgrid.com/) - Free 100 emails/day
+> * [Amazon SES](https://aws.amazon.com/ses/)
 > 
 > #### Test Your SMTP Configuration
 > 
